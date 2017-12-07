@@ -1,0 +1,11 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Torrent" "base:Euskadi" "base:Castilla_y_Leon" "base:Barcelona" "base:Alcobendas" "http://schema.org/City" ; /*classes style*/
+	"base:Torrent" -> "http://schema.org/City" [ label = "rdfs:subClassOf" ];
+	"base:Barcelona" -> "http://schema.org/City" [ label = "rdfs:subClassOf" ];
+	"base:Euskadi" -> "http://schema.org/City" [ label = "rdfs:subClassOf" ];
+	"base:Castilla_y_Leon" -> "http://schema.org/City" [ label = "rdfs:subClassOf" ];
+	"base:Alcobendas" -> "http://schema.org/City" [ label = "rdfs:subClassOf" ];
+
+}
