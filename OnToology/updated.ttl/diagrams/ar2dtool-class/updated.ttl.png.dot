@@ -1,0 +1,53 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1501"
+node [shape = rectangle, color="orange"]; "base:Torrent" "base:Euskadi" "base:Castilla_y_Leon" "base:Barcelona" "base:Alcobendas" "http://schema.org/City" ; /*classes style*/
+	"base:nitrogenDioxide" -> "base:no2" [ label = "owl:equivalentProperty" ];
+	"NULL" -> "http://schema.org/City" [ label = "owl:someValuesFrom" ];
+	"NULL" -> "http://dbpedia.org/ontology/country" [ label = "owl:onProperty" ];
+	"base:o3" -> "base:ozone" [ label = "owl:equivalentProperty" ];
+	"http://dbpedia.org/property/no" -> "base:nitrogenMonoxide" [ label = "owl:equivalentProperty" ];
+	"base:Torrent" -> "xsd:decimal" [ label = "http://dbpedia.org/property/year" ];
+	"base:Alcobendas" -> "xsd:decimal" [ label = "base:nitrogenMonoxide" ];
+	"base:Alcobendas" -> "xsd:float" [ label = "base:xylene" ];
+	"base:Castilla_y_Leon" -> "xsd:decimal" [ label = "base:pm2.5" ];
+	"base:Torrent" -> "xsd:float" [ label = "base:veloc" ];
+	"base:Alcobendas" -> "xsd:float" [ label = "base:benzene" ];
+	"base:Alcobendas" -> "xsd:dateTime" [ label = "http://dbpedia.org/property/date" ];
+	"base:Torrent" -> "xsd:decimal" [ label = "base:nox" ];
+	"base:Barcelona" -> "xsd:float" [ label = "base:" ];
+	"base:Alcobendas" -> "xsd:float" [ label = "base:non_methane_hydrocarbons" ];
+	"base:Torrent" -> "xsd:float" [ label = "base:pm1" ];
+	"base:Torrent" -> "xsd:decimal" [ label = "http://dbpedia.org/property/direction" ];
+	"base:Euskadi" -> "http://www.w3.org/2003/01/geo/wgs84_pos#long" [ label = "http://dbpedia.org/property/longitude" ];
+	"base:Castilla_y_Leon" -> "xsd:decimal" [ label = "base:so2" ];
+	"base:Castilla_y_Leon" -> "xsd:decimal" [ label = "base:no2" ];
+	"base:Torrent" -> "xsd:float" [ label = "http://dbpedia.org/property/rainfall" ];
+	"base:Alcobendas" -> "xsd:float" [ label = "base:toluene" ];
+	"base:Alcobendas" -> "xsd:decimal" [ label = "base:nitrogenDioxide" ];
+	"base:Alcobendas" -> "xsd:decimal" [ label = "base:ozone" ];
+	"base:Torrent" -> "xsd:decimal" [ label = "base:r.sol" ];
+	"base:Torrent" -> "xsd:decimal" [ label = "http://dbpedia.org/property/pressure" ];
+	"base:Barcelona" -> "xsd:string" [ label = "http://dbpedia.org/property/neighborhood" ];
+	"base:Torrent" -> "xsd:decimal" [ label = "base:hour" ];
+	"base:Castilla_y_Leon" -> "xsd:decimal" [ label = "base:o3" ];
+	"base:Castilla_y_Leon" -> "xsd:string" [ label = "http://dbpedia.org/property/station" ];
+	"base:Castilla_y_Leon" -> "xsd:decimal" [ label = "http://dbpedia.org/property/no" ];
+	"base:Alcobendas" -> "xsd:decimal" [ label = "base:pm10" ];
+	"base:Castilla_y_Leon" -> "xsd:decimal" [ label = "base:sh2" ];
+	"http://schema.org/City" -> "owl:Thing" [ label = "base:AirQuality" ];
+	"http://schema.org/City" -> "owl:Thing" [ label = "http://dbpedia.org/ontology/lifeExpectancy" ];
+	"base:Euskadi" -> "xsd:string" [ label = "http://dbpedia.org/property/name" ];
+	"base:Barcelona" -> "xsd:string" [ label = "http://dbpedia.org/property/district" ];
+	"base:Torrent" -> "xsd:decimal" [ label = "base:rh" ];
+	"base:Alcobendas" -> "xsd:float" [ label = "base:total_hydrocarbons" ];
+	"base:Euskadi" -> "xsd:string" [ label = "http://dbpedia.org/property/town" ];
+	"base:Euskadi" -> "https://www.w3.org/2003/01/geo/wgs84_pos#location" [ label = "base:coordenates_x_etrs89" ];
+	"base:Euskadi" -> "https://www.w3.org/2003/01/geo/wgs84_pos#location" [ label = "base:coordenates_y_etrs89" ];
+	"base:Euskadi" -> "xsd:string" [ label = "http://dbpedia.org/property/address" ];
+	"base:Castilla_y_Leon" -> "xsd:float" [ label = "http://dbpedia.org/property/co" ];
+	"base:Castilla_y_Leon" -> "xsd:string" [ label = "http://dbpedia.org/property/province" ];
+	"base:Torrent" -> "xsd:float" [ label = "http://dbpedia.org/property/temp" ];
+	"base:Euskadi" -> "http://www.w3.org/2003/01/geo/wgs84_pos#lat" [ label = "http://dbpedia.org/property/latitude" ];
+
+}

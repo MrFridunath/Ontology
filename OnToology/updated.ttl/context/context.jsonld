@@ -1,0 +1,200 @@
+{
+  "@context" : {
+    "" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "temp" : {
+      "@id" : "http://dbpedia.org/property/temp",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "province" : {
+      "@id" : "http://dbpedia.org/property/province",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "pm10" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/pm10",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "country" : {
+      "@id" : "http://dbpedia.org/ontology/country",
+      "@type" : "@id"
+    },
+    "rh" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/rh",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "non_methane_hydrocarbons" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/non_methane_hydrocarbons",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "so2" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/so2",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "Torrent" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/Torrent"
+    },
+    "longitude" : {
+      "@id" : "http://dbpedia.org/property/longitude",
+      "@type" : "http://www.w3.org/2003/01/geo/wgs84_pos#long"
+    },
+    "co" : {
+      "@id" : "http://dbpedia.org/property/co",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "hour" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/hour",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "nitrogenDioxide" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/nitrogenDioxide",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "district" : {
+      "@id" : "http://dbpedia.org/property/district",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "latitude" : {
+      "@id" : "http://dbpedia.org/property/latitude",
+      "@type" : "http://www.w3.org/2003/01/geo/wgs84_pos#lat"
+    },
+    "coordenates_y_etrs89" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/coordenates_y_etrs89",
+      "@type" : "https://www.w3.org/2003/01/geo/wgs84_pos#location"
+    },
+    "xylene" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/xylene",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "town" : {
+      "@id" : "http://dbpedia.org/property/town",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "name" : {
+      "@id" : "http://dbpedia.org/property/name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "veloc" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/veloc",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "toluene" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/toluene",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "address" : {
+      "@id" : "http://dbpedia.org/property/address",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "direction" : {
+      "@id" : "http://dbpedia.org/property/direction",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "pm1" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/pm1",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "benzene" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/benzene",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "AirQuality" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/AirQuality",
+      "@type" : "@id"
+    },
+    "no2" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/no2",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "coordenates_x_etrs89" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/coordenates_x_etrs89",
+      "@type" : "https://www.w3.org/2003/01/geo/wgs84_pos#location"
+    },
+    "rainfall" : {
+      "@id" : "http://dbpedia.org/property/rainfall",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "year" : {
+      "@id" : "http://dbpedia.org/property/year",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "nitrogenMonoxide" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/nitrogenMonoxide",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "Castilla_y_Leon" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/Castilla_y_Leon"
+    },
+    "Euskadi" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/Euskadi"
+    },
+    "r.sol" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/r.sol",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "no" : {
+      "@id" : "http://dbpedia.org/property/no",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "date" : {
+      "@id" : "http://dbpedia.org/property/date",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "Barcelona" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/Barcelona"
+    },
+    "neighborhood" : {
+      "@id" : "http://dbpedia.org/property/neighborhood",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "pressure" : {
+      "@id" : "http://dbpedia.org/property/pressure",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "total_hydrocarbons" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/total_hydrocarbons",
+      "@type" : "http://www.w3.org/2001/XMLSchema#float"
+    },
+    "City" : {
+      "@id" : "http://schema.org/City"
+    },
+    "lifeExpectancy" : {
+      "@id" : "http://dbpedia.org/ontology/lifeExpectancy",
+      "@type" : "@id"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "sh2" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/sh2",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "o3" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/o3",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "station" : {
+      "@id" : "http://dbpedia.org/property/station",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "ozone" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/ozone",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "Alcobendas" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/Alcobendas"
+    },
+    "nox" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/nox",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    },
+    "pm2.5" : {
+      "@id" : "http://www.semanticweb.org/2017grupo9/pm2.5",
+      "@type" : "http://www.w3.org/2001/XMLSchema#decimal"
+    }
+  }
+}
